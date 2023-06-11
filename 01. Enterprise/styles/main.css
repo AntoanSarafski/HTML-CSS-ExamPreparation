@@ -1,0 +1,15 @@
+/* 
+    background color - #f6f8f9
+    primary button color - #786eff
+    text color - #828b93
+    title color - #384350
+*/
+
+body{
+    font-family: Helvetica, sans-serif;
+    color: #384350;
+}
+
+.enterprise{
+    background-color: #f6f8f9;
+}
