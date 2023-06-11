@@ -1,1 +1,28 @@
 /* TODO: Add responsive styles here... */
+@media(max-width:600px){
+    .navbar{
+        justify-content: center;
+    }
+    .navbar-light .navbar-brand {
+        margin-right: 0px;
+    }
+    .hero img {
+        display: none;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .hero-btns{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 140px;
+    }
+
+    .hero-btns a:first-child{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
