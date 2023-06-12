@@ -1,0 +1,17 @@
+:root{
+    --gray-light: #efefef;
+    --gray-dark: #909090;
+    --gray-black: #222222;
+
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.page-section{
+    max-width: 1880px;
+    height: calc(100vh - 24px);
+    margin: 24px auto;
+    background-color: var(--gray-light);
+}
