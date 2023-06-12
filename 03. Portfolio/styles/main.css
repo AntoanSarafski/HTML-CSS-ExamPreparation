@@ -90,3 +90,12 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.big-img{
+    width: 100%;
+    height: 100%;
+}
+
+.page-section.big-picture{
+    padding: 0px;
+}
