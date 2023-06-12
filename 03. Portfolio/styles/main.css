@@ -18,7 +18,7 @@ body{
     background-color: var(--gray-light);
     padding: 5rem 3rem;
     display: flex;
-    gap: 2rem;
+    justify-content: space-between;
     align-items: center;
     overflow: hidden;
 }
@@ -29,7 +29,7 @@ body{
 }
 
 .page-section .section-img{
-    flex: 0 1 55%;
+    flex: 0 1 35%;
 }
 
 .page-section .title{
@@ -66,4 +66,27 @@ body{
     width: 50%;
     bottom: 0px;
     right: 5rem;
+}
+/* Camera Section */
+
+#camera .socials{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#camera .socials .social{
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--gray-dark);
+    color: white;
+    position: relative;
+}
+
+#camera .socials .social i{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
