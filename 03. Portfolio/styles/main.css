@@ -132,7 +132,7 @@ body{
 /* Contacts Section */
 
 #contacts .form{
-    max-width: 70%;
+    max-width: 700px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -173,4 +173,8 @@ body{
     background-color: var(--gray-black);
     color: white;
     grid-area: submit;
+}
+
+#contacts .title.last-title{
+text-align: center;
 }
