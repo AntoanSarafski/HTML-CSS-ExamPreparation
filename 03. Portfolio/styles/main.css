@@ -128,3 +128,49 @@ body{
     /* z-index: 1; */
 
 }
+
+/* Contacts Section */
+
+#contacts .form{
+    max-width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    grid-template-areas: 
+    "email subject"
+    "msg msg"
+    "submit submit";
+}
+
+#contacts .form input,
+#contacts .form textarea{
+    background-color: transparent;
+    border: 1px solid var(--gray-black);
+    padding: 0.25rem;
+    width: 100%;
+}
+
+#contacts .form textarea{
+    resize: none;
+}
+#contacts .form .email{
+    grid-area: email;
+}
+
+#contacts .form .subject{
+    grid-area: subject;
+}
+#contacts .form .message{
+    grid-area: msg;
+}
+
+#contacts .form .btn{
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid var(--gray-black);
+    background-color: var(--gray-black);
+    color: white;
+    grid-area: submit;
+}
