@@ -4,6 +4,9 @@
     --gray-black: #222222;
 
 }
+
+
+
 /* Global styles */
 
 body{
@@ -54,6 +57,7 @@ body{
     background-color: var(--gray-black);
 }
 
+
 /* Hero Section */
 
 #hero.page-section{
@@ -72,6 +76,9 @@ body{
     bottom: 0px;
     right: 5rem;
 }
+
+
+
 /* Camera Section */
 
 #camera .socials{
@@ -96,6 +103,8 @@ body{
     transform: translate(-50%, -50%);
 }
 
+
+
 /*  Big picture section  */
 .big-img{
     width: 100%;
@@ -106,7 +115,10 @@ body{
     padding: 0px;
 }
 
+
+
 /* Gallery section */
+
 #gallery{
     display: flex;
     align-items: center;
@@ -128,6 +140,8 @@ body{
     /* z-index: 1; */
 
 }
+
+
 
 /* Contacts Section */
 
@@ -177,4 +191,13 @@ body{
 
 #contacts .title.last-title{
 text-align: center;
+}
+
+/* Footer Section */
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: end;
 }
